@@ -1,12 +1,25 @@
+*{box-sizing: border-box;}
+header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav1{
     color: black;
 }
 nav a{
-    text-decoration: underline;
+   
     margin-left: 0.75em;
     margin-right: 00.75em;
     font-size: 14px;
+    
+}
+nav a:hover
+{
     cursor: pointer;
+    text-decoration: underline;
+
 }
 body{
     font-family: Arial,sans-serif;
@@ -55,6 +68,7 @@ button{
 .button-container{
     text-align: center;
     padding-top: 30px;
+  
 }
 
 #search-text{
@@ -75,7 +89,8 @@ input{
     text-align: start;
     cursor: text;
     margin: 0em;
-    font: 400px;
+    outline: none;
+    border: none;
 }
 #btn1{
     height: 36px;
@@ -113,7 +128,7 @@ input{
     margin-top: 20px;
     font-size: small;
 }
-span{
+.lang a{
     color: blue;
     text-decoration-line: underline;
 }
